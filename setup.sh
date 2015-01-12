@@ -43,6 +43,7 @@ echo "${configuration}" > ~/.bashrc
 
 # Install driver for wheel emulation scrolling.
 
+sudo apt-get -y install git
 sudo apt-get build-dep xserver-xorg-input-evdev xserver-xorg-input-synaptics
 
 wget https://aur.archlinux.org/packages/xf/xf86-input-evdev-trackpoint/xf86-input-evdev-trackpoint.tar.gz
